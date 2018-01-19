@@ -1,13 +1,14 @@
 #!/usr/bin/env python
-from distutils.core import setup
+from setuptools import setup
 
 setup(
-    name='SLPP',
-    description='SLPP is a simple lua-python data structures parser',
-    version='1.0',
-    author='SirAnthony',
-    url='https://github.com/SirAnthony/slpp',
-    license='https://github.com/SirAnthony/slpp/blob/master/LICENSE',
+    name='SLPP-23',
+    description='SLPP-23 is a simple lua-python data structures parser',
+    version='1.1',
+    author='Ilya Skriblovsky',
+    author_email='ilyaskriblovsky@gmail.com',
+    url='https://github.com/IlyaSkriblovsky/slpp-23',
+    license='https://github.com/IlyaSkriblovsky/slpp-23/blob/master/LICENSE',
     keywords=['lua'],
     py_modules=['slpp'],
     install_requires=['six'],

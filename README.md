@@ -1,5 +1,11 @@
-#### SLPP
-SLPP is a simple lua-python data structures parser.
+### SLPP-23
+
+SLPP-23 is a simple lua-python data structures parser.
+
+This is a fork of https://github.com/SirAnthony/slpp with some bugs fixed and Python 3 support added.
+
+
+### Usage
 
 Lua data check:
 
