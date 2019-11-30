@@ -4,7 +4,7 @@ from setuptools import setup
 setup(
     name='SLPP-23',
     description='SLPP-23 is a simple lua-python data structures parser',
-    version='1.1',
+    version='1.2',
     author='Ilya Skriblovsky',
     author_email='ilyaskriblovsky@gmail.com',
     url='https://github.com/IlyaSkriblovsky/slpp-23',
