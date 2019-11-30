@@ -80,7 +80,7 @@ class SLPP(object):
                     if all_keys_int:
                         contents.append(self.__encode(v))
                     else:
-                        contents.append(dp + '%s = %s' % (k, self.__encode(v)))
+                        contents.append(dp + '["%s"] = %s' % (k, self.__encode(v)))
                 s += (',%s' % newline).join(contents)
 
             else:
